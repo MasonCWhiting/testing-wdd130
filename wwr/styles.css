@@ -1,0 +1,70 @@
+/* CSS Variables */
+:root {
+    --primary-color: #123456;
+    --secondary-color: #abcdef;
+    --accent-color:  #ff9900;
+    --font-body: 'Roboto', sans-serif;
+    --font-heading: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+  }
+  
+  header img {
+    max-width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  .hero h1, .hero article {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+  }
+  
+  .hero article img {
+    float: right;
+    margin: 10px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
